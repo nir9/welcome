@@ -13,11 +13,12 @@ Basic Windows Programming Setup in my videos:
 I use Windows 10
 
 - Visual Studio Build Tools
+- Windows SDK
 - Vim
 
 Basic Linux Programming Setup in my videos:
 
-I use Debian WSL in my videos
+I use Debian WSL in many of my videos
 
 - gcc
 - manpage-dev
