@@ -34,3 +34,7 @@ In my x86 Assembly videos I like using the NASM assembler.
   - I like both Windows programming and Linux programming
   - I get great Linux support on Windows using WSL
   - I do like using Linux for my servers, but for desktop I find Windows to be best for me :)
+ 
+- Why I prefer using Vim over other IDEs/Editors
+  - I have some videos about this topic but to summarize:
+    - Vim contains way more advanced, useful and awesome features than other IDEs and Editors and also exposes those features in a much more harmonic way as compared to IDEs which map advanced features to awkward keyboard chords. On my playlist "Vim Tips" I talk about some of those features I like and a lot of them cannot be found in other IDEs/Editors.
