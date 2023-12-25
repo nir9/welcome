@@ -38,3 +38,6 @@ In my x86 Assembly videos I like using the NASM assembler.
 - Why I prefer using Vim over other IDEs/Editors
   - I have some videos about this topic but to summarize:
     - Vim contains way more advanced, useful and awesome features than other IDEs and Editors and also exposes those features in a much more harmonic way as compared to IDEs which map advanced features to awkward keyboard chords. On my playlist "Vim Tips" I talk about some of those features I like and a lot of them cannot be found in other IDEs/Editors.
+
+- Why I prefer using the command line build tools over graphical IDE buttons for building code
+  - I prefer compiling and building in the command line instead of through IDE buttons since it lets me see and control exactly what is going on without the IDE abstractions, and it encourages me to understand how the compilation and linking works more deeply. 
