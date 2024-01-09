@@ -59,7 +59,7 @@ different computers.
 
 My role in the team was programming the areas of keyboard sharing and clipboard sharing.
 
-This opened a window for me into OS level programming for example I got more familiar with the Windows API which I used for example to manipulate the clipboard.
+This opened a window for me into OS level programming, I got more familiar with the Windows API which I used for example to manipulate the clipboard.
 
 This and additional exploration of the topic got me also interested in learning low level as well as high level and until today I like both very much.
 
