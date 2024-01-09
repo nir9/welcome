@@ -44,12 +44,25 @@ In my x86 Assembly videos I like using the NASM assembler.
 
 ## About
 
-Programming is my hobby from a young age and my first steps into this world was with building websites with HTML/CSS/JS and making animations/games with Flash/ActionScript.
-One of my early projects was an online virtual world I called Funworldlife (still keeping the domain) in which I also got my first steps into the world of PHP, SQL and Photoshop Design.
+Programming is my passion ever since I remember myself.
+
+My first steps into this world were by building websites using HTML/CSS/JS and making animations/games with Flash/ActionScript.
+
+One of my early projects at the age of 10 was an online virtual world I called Funworldlife (still keeping the domain) in which I also got my first steps into the world of PHP, SQL and Photoshop Design.
+
+I remember adding online features to the game such as the option to buy virtual houses with virtual coins and my peers in class gradually started signing up and played the game, it was very fun and exciting for me.
+
 Afterwards I started learning additional languages like C and Java and built a small game for Android.
-On of my first steps into low level was when I was working with a couple of friends on a project in which we made a program that enabled people to share the keyboard and mouse across
-different computers. My role in the team was programming the areas of keyboard sharing and clipboard sharing and even though we wrote most of the code in Python which is a high level language
-I got my first steps into OS level programming for example I got more familiar with the Windows API which I used for example to manipulate the clipboard. This and additional exploration of the topic
-got me also interested in learning low level as well as high level and until today I like both very much.
+
+One of my first steps into low level was when I was working with a couple of friends on a project in which we made a program that enabled people to share the keyboard and mouse across
+different computers.
+
+My role in the team was programming the areas of keyboard sharing and clipboard sharing.
+
+This opened a window for me into OS level programming for example I got more familiar with the Windows API which I used for example to manipulate the clipboard.
+
+This and additional exploration of the topic got me also interested in learning low level as well as high level and until today I like both very much.
+
 Another cool project I made is a JavaScript touch carousel I called ItemSlide and it is hosted over here on Github.
-I am currently a Computer Science and Entreprenuership student and on the side I continue to maintain my YouTube channel :)
+
+Currently I am a Computer Science and Entreprenuership student and on the side I continue to maintain my YouTube channel :)
