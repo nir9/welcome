@@ -6,7 +6,7 @@ Useful information regarding my YouTube channel
 
 I use Windows as my primary OS and Linux using WSL
 
-On Windows I use a port of Suckless dwm for Windows called [dwm-win32](https://github.com/prabirshrestha/dwm-win32)
+On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open source tiling window manager I am working on.
 
 Basic Windows Programming Setup in my videos:
 
