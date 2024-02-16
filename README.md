@@ -4,7 +4,7 @@ Useful information regarding my YouTube channel
 
 - [Link to my .vimrc file](https://gist.github.com/nir9/3c59b8b5112484974e1f0541198388bd)
 
-I use Windows as my primary OS and Linux using WSL
+I use Windows as my primary OS and Linux using WSL (or sometimes through Dockers)
 
 On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open source tiling window manager I am working on.
 
@@ -23,8 +23,6 @@ I use Debian WSL in many of my videos
 - gcc
 - manpage-dev
 - vim
-
-In my x86 Assembly videos I like using the NASM assembler.
 
 ## Common Questions
 
