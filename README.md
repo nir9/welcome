@@ -2,7 +2,7 @@
 
 Useful information regarding my YouTube channel
 
-- [Link to my .vimrc file](https://gist.github.com/nir9/3c59b8b5112484974e1f0541198388bd)
+- [Link to my .vimrc file](https://github.com/nir9/welcome/blob/master/.vimrc)
 
 I use Windows as my primary OS and Linux using WSL (or sometimes through Dockers)
 
