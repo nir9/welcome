@@ -4,21 +4,19 @@ Useful information regarding my YouTube channel
 
 - [Link to my .vimrc file](https://github.com/nir9/welcome/blob/master/.vimrc)
 
-I use Windows as my primary OS and Linux using WSL (or sometimes through Dockers)
+## Setup
+
+I use Windows 10 as my primary OS and Debian Linux using WSL
 
 On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open source tiling window manager I am working on.
 
 Basic Windows Programming Setup in my videos:
-
-I use Windows 10
 
 - Visual Studio Build Tools
 - Windows SDK
 - Vim
 
 Basic Linux Programming Setup in my videos:
-
-I use Debian WSL in many of my videos
 
 - gcc
 - manpage-dev
@@ -27,11 +25,9 @@ I use Debian WSL in many of my videos
 ## Common Questions
 
 - Why I prefer using Windows over a Linux Distro as my main desktop OS? There are a couple of reasons:
-  - I find it to be very user friendly, stable and nostalgic
+  - I find it more comfortable
   - I like the fact that it has wide support for old/new software and games
-  - I like both Windows programming and Linux programming
-  - I get great Linux support on Windows using WSL
-  - I do like using Linux for my servers, but for desktop I find Windows to be best for me :)
+  - I am interested in both Windows programming and Linux programming
  
 - Why I prefer using Vim over other IDEs/Editors
   - I have some videos about this topic but to summarize:
