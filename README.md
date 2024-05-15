@@ -10,11 +10,19 @@ I use Windows 10 as my primary OS and Debian Linux using WSL
 
 On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open source tiling window manager I am working on.
 
+Tools I like using on Windows:
+- Vim (```winget install vim```)
+- QEMU (```winget install qemu```)
+
+Setting up WSL Debian on Windows:
+```wsl --install Debian```
+
+You can access the Windows C drive from WSL as ```/mnt/c```
+
 Basic Windows Programming Setup in my videos:
 
 - Visual Studio Build Tools
 - Windows SDK
-- Vim
 
 Basic Linux Programming Setup in my videos:
 
