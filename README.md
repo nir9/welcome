@@ -16,6 +16,7 @@ On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open 
 - Windbg (```winget install Microsoft.WinDbg```)
 - Cutter (```winget install Rizin.Cutter```)
 - Sysinternals (```winget install "Sysinternals Suite"```)
+- FASM (```winget install fasm```)
 
 #### Setting up WSL Debian on Windows
 ```wsl --install Debian```
