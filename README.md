@@ -15,6 +15,7 @@ On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open 
 - QEMU (```winget install qemu```)
 - Windbg (```winget install Microsoft.WinDbg```)
 - Cutter (```winget install Rizin.Cutter```)
+- Sysinternals (```winget install "Sysinternals Suite"```)
 
 #### Setting up WSL Debian on Windows
 ```wsl --install Debian```
