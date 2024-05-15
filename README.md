@@ -10,25 +10,34 @@ I use Windows 10 as my primary OS and Debian Linux using WSL
 
 On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open source tiling window manager I am working on.
 
-Tools I like using on Windows:
+#### Tools I like using on Windows
 - Vim (```winget install vim```)
 - QEMU (```winget install qemu```)
 
-Setting up WSL Debian on Windows:
+#### Setting up WSL Debian on Windows
 ```wsl --install Debian```
 
 You can access the Windows C drive from WSL as ```/mnt/c```
 
-Basic Windows Programming Setup in my videos:
+#### Basic Windows Programming Setup
 
 - Visual Studio Build Tools
 - Windows SDK
 
-Basic Linux Programming Setup in my videos:
+#### Basic Linux Programming Setup
 
-- gcc
-- manpage-dev
-- vim
+```apt install gcc manpage-dev vim git make```
+
+#### Basic Linux Kernel Programming Setup
+
+```apt install bzip2 libncurses-dev flex bison bc cpio libelf-dev libssl-dev syslinux dosfstools```
+
+#### Grabbing the Linux Kernel source
+
+You can grab it from torvalds mirror on Github ```https://github.com/torvalds/linux``` or from the Linux kernel website ```https://kernel.org```
+When cloning the kernel, I recommend using the depth flag like so ```git clone --depth 1``` so it will not bring over the entire history of the kernel, but only the last commit (this will speed up the cloning process and save disk space)
+
+I highly recommend checking out the Linux kernel documentation ```https://docs.kernel.org/```, you can also build it locally on your computer by following the instructions in the kernel source code README.
 
 ## Common Questions
 
