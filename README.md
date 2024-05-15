@@ -13,6 +13,8 @@ On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open 
 #### Tools I like using on Windows
 - Vim (```winget install vim```)
 - QEMU (```winget install qemu```)
+- Windbg (```winget install Microsoft.WinDbg```)
+- Cutter (```winget install Rizin.Cutter```)
 
 #### Setting up WSL Debian on Windows
 ```wsl --install Debian```
@@ -35,6 +37,7 @@ You can access the Windows C drive from WSL as ```/mnt/c```
 #### Grabbing the Linux Kernel source
 
 You can grab it from torvalds mirror on Github ```https://github.com/torvalds/linux``` or from the Linux kernel website ```https://kernel.org```
+
 When cloning the kernel, I recommend using the depth flag like so ```git clone --depth 1``` so it will not bring over the entire history of the kernel, but only the last commit (this will speed up the cloning process and save disk space)
 
 I highly recommend checking out the Linux kernel documentation ```https://docs.kernel.org/```, you can also build it locally on your computer by following the instructions in the kernel source code README.
