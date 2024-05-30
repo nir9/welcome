@@ -36,6 +36,8 @@ You can access the Windows C drive from WSL as ```/mnt/c```
 
 ```apt install bzip2 libncurses-dev flex bison bc cpio libelf-dev libssl-dev syslinux dosfstools```
 
+I also like using QEMU to try out the built kernel: ```apt install qemu-system-x86```
+
 #### Grabbing the Linux Kernel source
 
 You can grab it from torvalds mirror on Github ```https://github.com/torvalds/linux``` or from the Linux kernel website ```https://kernel.org```
