@@ -63,8 +63,8 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 ## Suggested Learning Resources
 
 ### Unix
-- [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/) - Even though it is geared towards FreeBSD, I highly recommend this since it is very well written and includes a lot of information that is mostly applicable for other Unix-like OSes
 - The book "UNIX: A History and a Memoir" by Brian W. Kernighan - Really enjoyed reading this one, I am generally a fan of history related to computers, and this book tells very well how the early days of Unix were and how things came to be what they are today
+- The lecture "A Narrative History of BSD" by Dr. Kirk McKusick - Very interesting lecture, you can find online
 
 ### Linux
 - [Linux Docs](https://docs.kernel.org/) - Great source of information to learn about all things Linux, goes from Admin related stuff like configuring kernel command-line parameters and until low level subsystems in the kernel. I would recommend reading the docs in conjunction with reading the source code
@@ -79,3 +79,6 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 
 ### C Programming
 - The book "Writing Solid Code" by Steve Maguire - I read the original book but I think there is a newer edition, I enjoyed reading this one a lot, it is also quite old and contains some outdated info but still talks about a lot of tips which are relevant until today when programming C.
+
+### Computer History
+- The Computer Chronicles - A great show that was broadcast from the 80s until the early 2000s and is a great time capsule of many major events that happened in the world of computing, very intersting and all the epsiodes are availble to watch free online.
