@@ -58,4 +58,23 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
     - Vim contains way more advanced, useful and awesome features than other IDEs and Editors and also exposes those features in a much more harmonic way as compared to IDEs which map advanced features to awkward keyboard chords. On my playlist "Vim Tips" I talk about some of those features I like and a lot of them cannot be found in other IDEs/Editors.
 
 - Why I prefer using the command line build tools over graphical IDE buttons for building code
-  - I prefer compiling and building in the command line instead of through IDE buttons since it lets me see and control exactly what is going on without the IDE abstractions, and it encourages me to understand how the compilation and linking works more deeply. 
+  - I prefer compiling and building in the command line instead of through IDE buttons since it lets me see and control exactly what is going on without the IDE abstractions, and it encourages me to understand how the compilation and linking works more deeply.
+ 
+## Suggested Learning Resources
+
+### Unix
+- [FreeBSD Handbook](https://docs.freebsd.org/en/books/handbook/) - Even though it is geared towards FreeBSD, I highly recommend this since it is very well written and includes a lot of information that is mostly applicable for other Unix-like OSes
+- The book "UNIX: A History and a Memoir" by Brian W. Kernighan - Really enjoyed reading this one, I am generally a fan of history related to computers, and this book tells very well how the early days of Unix were and how things came to be what they are today
+
+### Linux
+- [Linux Docs](https://docs.kernel.org/) - Great source of information to learn about all things Linux, goes from Admin related stuff like configuring kernel command-line parameters and until low level subsystems in the kernel. I would recommend reading the docs in conjunction with reading the source code
+- Robert Landley's talk about making a minimal Linux system (you can find on Youtube)
+- man pages :)
+
+### Windows
+- The book "Inside Windows NT" by Helen Custer - This book was written in conjunction with the preperation of the release of the first version of Windows NT in 1993, though this book is old and contains a lot of outdated information, I found it very interesting and fun to read to understand how things came to be how they are today on Windows. Also since the basic architecture of the Windows NT kernel has pretty much remained the same as it was designed in the original Windows NT, I did get a much better understanding of internals after reading this book. I have also recently started reading "Windows Internals" which is the modern version of "Inside Window NT" but I will say that "Windows Internals" is much more technical and harder to read as compared to "Inside Windows NT" which is more focused on the high level and general design of Windows.
+- [SysInternals](https://learn.microsoft.com/en-us/sysinternals/) - Great tools for learning what happens under the hood on Windows.
+- [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) - The Windows Debugger, most important command - ```.hh``` :)
+
+### C Programming
+- The book "Writing Solid Code" by Steve Maguire - I read the original book but I think there is a newer edition, I enjoyed reading this one a lot, it is also quite old and contains some outdated info but still talks about a lot of tips which are relevant until today when programming C.
