@@ -28,6 +28,9 @@ You can access the Windows C drive from WSL as ```/mnt/c```
 - Visual Studio Build Tools
 - Windows SDK
 
+#### Tools I like using on Linux
+- QEMU (```apt install qemu-system-x86```)
+
 #### Basic Linux Programming Setup
 
 ```apt install gcc manpage-dev vim git make```
