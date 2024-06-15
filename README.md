@@ -2,7 +2,13 @@
 
 Useful information regarding my YouTube channel
 
-- [Link to my .vimrc file](https://github.com/nir9/welcome/blob/master/.vimrc)
+Here you can find the following
+
+- Many of the PoC projects I wrote in my videos (notice that they are only for fun and are NOT suitable for production)
+- Information about my setup
+- Common questions
+- Suggested learning resources
+- My .vimrc file
 
 ## Setup
 
