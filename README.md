@@ -6,8 +6,8 @@ Useful information regarding my YouTube channel
 
 ## Setup
 
-On my main laptop I use Windows 10 and Debian Linux using WSL
-On my small on the go laptop I use OpenBSD
+- On my main laptop I use Windows 10 and Debian Linux using WSL
+- On my small on the go laptop I use OpenBSD
 
 On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open source tiling window manager I am working on.
 
@@ -31,6 +31,7 @@ You can access the Windows C drive from WSL as ```/mnt/c```
 
 #### Tools I like using on Linux
 - QEMU (```apt install qemu-system-x86```)
+- GCC (```apt install gcc```)
 
 #### Basic Linux Programming Setup
 
@@ -86,4 +87,4 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 - The book "Writing Solid Code" by Steve Maguire - I read the original book but I think there is a newer edition, I enjoyed reading this one a lot, it is also quite old and contains some outdated info but still talks about a lot of tips which are relevant until today when programming C.
 
 ### Computer History
-- The Computer Chronicles - A great show that was broadcast from the 80s until the early 2000s and is a great time capsule of many major events that happened in the world of computing, very intersting and all the epsiodes are availble to watch free online.
+- The Computer Chronicles - A great show that was broadcast from the 80s until the early 2000s and is a great time capsule of many major events that happened in the world of computing, very interesting and all the episodes are available to watch free online.
