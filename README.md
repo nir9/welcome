@@ -6,7 +6,8 @@ Useful information regarding my YouTube channel
 
 ## Setup
 
-I use Windows 10 as my primary OS and Debian Linux using WSL
+On my main laptop I use Windows 10 and Debian Linux using WSL
+On my small on the go laptop I use OpenBSD
 
 On Windows I use [LightWM](https://github.com/nir9/lightwm) which is a WIP open source tiling window manager I am working on.
 
