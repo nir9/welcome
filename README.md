@@ -76,11 +76,12 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 ### Unix
 - The book "UNIX: A History and a Memoir" by Brian W. Kernighan - Really enjoyed reading this one, I am generally a fan of history related to computers, and this book tells very well how the early days of Unix were and how things came to be what they are today
 - The lecture "A Narrative History of BSD" by Dr. Kirk McKusick - Very interesting lecture, you can find online
+- GDB - This tool comes in very handy when you want to dive in deeper, and also in general to debug the programs you write. It has a great help system, check out the ```help``` and ```apropos``` commands.
+- The man pages and info pages - Many of the documentation of Unix like systems can be found in the man pages using the ```man``` command, this includes docs about commands, system calls and more. GNU utilities like GDB for example tend to have more extensive documentation in the info pages which can be accessed through the ```info``` command.
 
 ### Linux
 - [Linux Docs](https://docs.kernel.org/) - Great source of information to learn about all things Linux, goes from Admin related stuff like configuring kernel command-line parameters and until low level subsystems in the kernel. I would recommend reading the docs in conjunction with reading the source code
 - Robert Landley's talk about making a minimal Linux system (you can find on Youtube)
-- man pages :)
 
 ### Windows
 - The book "Inside Windows NT" by Helen Custer - This book was written in conjunction with the preperation of the release of the first version of Windows NT in 1993, though this book is old and contains a lot of outdated information, I found it very interesting and fun to read to understand how things came to be how they are today on Windows. Also since the basic architecture of the Windows NT kernel has pretty much remained the same as it was designed in the original Windows NT, I did get a much better understanding of internals after reading this book. I have also recently started reading "Windows Internals" which is the modern version of "Inside Window NT" but I will say that "Windows Internals" is much more technical and harder to read as compared to "Inside Windows NT" which is more focused on the high level and general design of Windows.
