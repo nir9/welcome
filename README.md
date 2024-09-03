@@ -89,6 +89,9 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 - [SysInternals](https://learn.microsoft.com/en-us/sysinternals/) - Great tools for learning what happens under the hood on Windows.
 - [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) - The Windows Debugger, most important command - ```.hh``` :)
 - [Win32 API](https://learn.microsoft.com/en-us/windows/win32/) - The Offical Windows API Documentation
+- "Windows Debugging and Troubleshooting" lecture (you can find on YT)
+- "Kernel_Debugging_Tutorial.doc" - a great kernel debugging guide that comes with Windows SDK
+- The Old New Thing - a great blog written by Raymond Chen with all kinds of interesting stories about Windows
 
 ### C Programming
 - The book "Writing Solid Code" by Steve Maguire - I read the original book but I think there is a newer edition, I enjoyed reading this one a lot, it is also quite old and contains some outdated info but still talks about a lot of tips which are relevant until today when programming C.
