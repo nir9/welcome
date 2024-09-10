@@ -87,10 +87,10 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 - The book "Inside Windows NT" by Helen Custer - This book was written in conjunction with the preperation of the release of the first version of Windows NT in 1993, though this book is old and contains a lot of outdated information, I found it very interesting and fun to read to understand how things came to be how they are today on Windows. Also since the basic architecture of the Windows NT kernel has pretty much remained the same as it was designed in the original Windows NT, I did get a much better understanding of internals after reading this book. I have also recently started reading "Windows Internals" which is the modern version of "Inside Window NT" but I will say that "Windows Internals" is much more technical and harder to read as compared to "Inside Windows NT" which is more focused on the high level and general design of Windows.
 - The book "Windows Internals" - A very interesting (but technical) book about how Windows works under the hood, includes great practical exercises to demonstrate the theory discussed in the chapters. It is hard to read it from beginning to end, so I would recommend focusing each time on a different chapter you are interested in.
 - [SysInternals](https://learn.microsoft.com/en-us/sysinternals/) - Great tools for learning what happens under the hood on Windows.
-- [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) - The Windows Debugger, most important command - ```.hh``` :)
 - [Win32 API](https://learn.microsoft.com/en-us/windows/win32/) - The Offical Windows API Documentation
-- "Windows Debugging and Troubleshooting" lecture (you can find on YT)
-- "Kernel_Debugging_Tutorial.doc" - a great kernel debugging guide that comes with Windows SDK
+- [WinDbg](https://learn.microsoft.com/en-us/windows-hardware/drivers/debugger/) - The Windows Debugger, it comes with a great help system built-in which can be opened using the command ```.hh```
+- "Windows Debugging and Troubleshooting" lecture (you can find on YT) - Great lecture with cool WinDbg tricks
+- "Kernel_Debugging_Tutorial.doc" - a great WinDbg kernel debugging guide that comes with Windows SDK
 - The Old New Thing - a great blog written by Raymond Chen with all kinds of interesting stories about Windows
 
 ### C Programming
