@@ -22,6 +22,7 @@ set ignorecase
 set smartcase
 set ruler
 set gp=git\ grep\ -n
+set backupcopy=yes
 
 packadd! matchit
 
