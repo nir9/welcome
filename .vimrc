@@ -10,7 +10,7 @@ set wildmenu
 set hidden
 set wildignore=*.exe,*.dll,*.pdb
 
-set guifont=Cascadia_Mono:h24
+set guifont=Cascadia_Mono:h18
 set guioptions-=m
 set guioptions-=T
 set guioptions-=r
