@@ -82,6 +82,8 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 ### Linux
 - [Linux Docs](https://docs.kernel.org/) - Great source of information to learn about all things Linux, goes from Admin related stuff like configuring kernel command-line parameters and until low level subsystems in the kernel. I would recommend reading the docs in conjunction with reading the source code
 - Robert Landley's talk about making a minimal Linux system (you can find on Youtube)
+- Playlist on YouTube: "Greybeard Qualification - Linux Internals" - nice and helpful videos about Linux internals
+- The book "Understanding the Linux Kernel"
 
 ### Windows
 - The book "Inside Windows NT" by Helen Custer - This book was written in conjunction with the preperation of the release of the first version of Windows NT in 1993, though this book is old and contains a lot of outdated information, I found it very interesting and fun to read to understand how things came to be how they are today on Windows. Also since the basic architecture of the Windows NT kernel has pretty much remained the same as it was designed in the original Windows NT, I did get a much better understanding of internals after reading this book. I have also recently started reading "Windows Internals" which is the modern version of "Inside Window NT" but I will say that "Windows Internals" is much more technical and harder to read as compared to "Inside Windows NT" which is more focused on the high level and general design of Windows.
