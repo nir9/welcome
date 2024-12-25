@@ -7,6 +7,7 @@ set tabstop=4
 set shiftwidth=4
 
 set wildmenu
+set wildoptions=pum
 set hidden
 set wildignore=*.exe,*.dll,*.pdb
 
