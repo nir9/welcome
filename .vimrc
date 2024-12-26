@@ -42,6 +42,10 @@ map <F5> :ls<CR>
 imap <F5> <Esc>:ls<CR>
 tmap <F5> <C-W>:ls<CR>
 
+" Copy current file path
+map <F6> :let @+ = fnamemodify(@%, ":p")<CR>
+imap <F6> <Esc>:let @+ = fnamemodify(@%, ":p")<CR>
+
 map <F12> :term++curwin<CR>
 imap <F12> <Esc>:term++curwin<CR>
 tmap <F12> <C-W>:term++curwin<CR>
