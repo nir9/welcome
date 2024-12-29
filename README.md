@@ -13,8 +13,9 @@ Here you can find the following
 
 ## Setup
 
-- On my main laptop I use Windows 10 and Debian Linux using WSL
+- On my main laptop (on which I record the videos) I use Windows 10 and Debian Linux using WSL
 - On my small on the go laptop I use OpenBSD
+- At work I use MacOS
 
 On Windows I use [LightWM](https://github.com/nir9/lightwm) which is an open source tiling window manager I am working on.
 
@@ -97,6 +98,8 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 ## How I Navigate Source Code with Vim
 
 The following tips come along side my playlist "Vim Tips" on my channel, some of the following tips are covered in those videos.
+
+Regarding the ctags program, I use "Universal Ctags". I would recommend making sure you don't use a version of ctags that is too outdated, you can check by running ```ctags --help```
 
 - I always like setting the working directory to my current project: ```cd ~/cloned/project```
 - Configure Vim to use ```git grep``` as the ```:grep``` engine, this is extremely handy to quickly search text across a Git repository while in Vim, the search results come up directly inside Vim. I have a video about setting this up, or you can checkout the ```set gp``` line in my .vimrc
