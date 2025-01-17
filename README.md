@@ -43,7 +43,7 @@ You can access the Windows C drive from WSL as ```/mnt/c```
 
 #### Basic Linux Programming Setup
 
-```apt install gcc manpage-dev vim git make```
+```apt install gcc manpages-dev vim git make```
 
 #### Basic Linux Kernel Programming Setup
 
