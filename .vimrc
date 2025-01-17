@@ -46,6 +46,13 @@ tmap <F5> <C-W>:ls<CR>
 map <F6> :let @+ = fnamemodify(@%, ":p")<CR>
 imap <F6> <Esc>:let @+ = fnamemodify(@%, ":p")<CR>
 
+" Go to previous/next quickfix result (for example, useful for going through :grep or
+" :vimgrep results)
+map <F7> :cp<CR>
+imap <F7> <Esc>:cp<CR>
+map <F8> :cn<CR>
+imap <F8> <Esc>:cn<CR>
+
 map <F12> :term++curwin<CR>
 imap <F12> <Esc>:term++curwin<CR>
 tmap <F12> <C-W>:term++curwin<CR>
