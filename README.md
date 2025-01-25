@@ -53,7 +53,7 @@ I also like using QEMU to try out the built kernel: ```apt install qemu-system-x
 
 #### Grabbing the Linux Kernel source
 
-You can grab it from torvalds mirror on Github ```https://github.com/torvalds/linux``` or from the Linux kernel website ```https://kernel.org```
+You can grab it from torvalds official Linux git repository ```git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git``` 
 
 When cloning the kernel, I recommend using the depth flag like so ```git clone --depth 1``` so it will not bring over the entire history of the kernel, but only the last commit (this will speed up the cloning process and save disk space)
 
