@@ -15,9 +15,9 @@ db 3				; Linux, NOTE
 ;db 0				; Stable ABI, NOTE
 ;times 7 db 0			; Padding, NOTE
 exit:
-	xor eax, eax
+	xor rax, rax
 	mov al, 60
-	xor edi, edi
+	xor rdi, rdi
 	syscall
 
 dw 2				; Executable
@@ -28,10 +28,10 @@ dq program_table-$$		; The start of the program header table
 ;dq 0				; The start of the section header table, NOTE
 _start:
 loop:
-	xor eax, eax
-	inc eax
-	mov edi, eax
-	xor edx, edx
+	xor rax, rax
+	inc rax
+	mov rdi, rax
+	xor rdx, rdx
 	mov dl, prompt_size
 	jmp short loop_2
 prompt:
@@ -59,40 +59,40 @@ dq _bss_end-$$			; Size in memory
 
 loop_2:
 
-	mov esi, prompt
+	mov rsi, prompt
 	syscall
 				; ignore error
-	xor eax, eax		; read
-	xor edi, edi
-	mov esi, command_buffer
-	xor edx, edx
+	xor rax, rax		; read
+	xor rdi, rdi
+	mov rsi, command_buffer
+	xor rdx, rdx
 	mov dl, 255
 	syscall
 				; ignore error, may segfault!
-	mov byte [command_buffer + eax - 1], 0
+	mov byte [command_buffer + rax - 1], 0
 
-	xor eax, eax
+	xor rax, rax
 	mov al, 57		; fork
 	syscall
 				; ignore error
-	and eax, eax
+	and rax, rax
 	jnz .wait
 
-	xor eax, eax
+	xor rax, rax
 	mov al, 59		; execve
-	mov edi, command_buffer
-	xor esi, esi
-	xor edx, edx
+	mov rdi, command_buffer
+	xor rsi, rsi
+	xor rdx, rdx
 	syscall
 				; ignore error
 	jmp exit
 
 .wait:
-	xor eax, eax
+	xor rax, rax
 	mov al, 247
-	xor edi, edi		; P_ALL
-	xor esi, esi
-	mov edx, siginfo_buffer
+	xor rdi, rdi		; P_ALL
+	xor rsi, rsi
+	mov rdx, siginfo_buffer
 	xor r10d, r10d
 	mov r10b, 4		; WEXITED
 	xor r8d, r8d
