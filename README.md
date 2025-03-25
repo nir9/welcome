@@ -11,15 +11,16 @@ Here you can find the following
 - Common questions
 - My .vimrc file
 
-## Setup
+# Setup
 
 - On my main laptop (on which I record the videos) I use Windows 10 and Debian Linux using WSL
 - On my small on the go laptop I use OpenBSD
-- At work I use MacOS
 
-On Windows I use [LightWM](https://github.com/nir9/lightwm) which is an open source tiling window manager I am working on.
+## Windows Setup
 
-#### Tools I like using on Windows
+Window Manager: I use [LightWM](https://github.com/nir9/lightwm) which is an open source tiling window manager I am working on.
+
+### Tools I like using on Windows
 - Vim (```winget install vim```)
 - QEMU (```winget install qemu```)
 - Windbg (```winget install Microsoft.WinDbg```)
@@ -27,29 +28,33 @@ On Windows I use [LightWM](https://github.com/nir9/lightwm) which is an open sou
 - Sysinternals (```winget install "Sysinternals Suite"```)
 - VirtualBox (```winget install Oracle.VirtualBox```)
 
-#### Setting up WSL Debian on Windows
+### Setting up WSL Debian on Windows
 ```wsl --install Debian```
 
 You can access the Windows C drive from WSL as ```/mnt/c```
 
-#### Basic Windows Programming Setup
+### Basic Windows Programming Setup
 
 - Visual Studio Build Tools
 - Windows SDK
 
-#### Tools I like using on Linux
+## Linux Setup
+
+Window Manager: On Unix-likes I like using suckless dwm, when I use them graphically
+
+### Tools I like using on Linux
 - QEMU (```apt install qemu-system-x86```)
 - GCC (```apt install gcc```)
 
-#### Basic Linux Programming Setup
+### Basic Linux Programming Setup
 
 ```apt install gcc manpages-dev vim git make```
 
-#### Basic Linux Kernel Programming Setup
+### Basic Linux Kernel Programming Setup
 
 ```apt install bzip2 libncurses-dev flex bison bc cpio libelf-dev libssl-dev syslinux dosfstools```
 
-I also like using QEMU to try out the built kernel: ```apt install qemu-system-x86```
+I also like using QEMU to try out the built kernel with the ```-kernel``` flag.
 
 #### Grabbing the Linux Kernel source
 
@@ -59,21 +64,21 @@ When cloning the kernel, I recommend using the depth flag like so ```git clone -
 
 I highly recommend checking out the Linux kernel documentation ```https://docs.kernel.org/```, you can also build it locally on your computer by following the instructions in the kernel source code README.
 
-## Suggested Learning Resources
+# Suggested Learning Resources
 
-### Unix
+## Unix
 - The book "UNIX: A History and a Memoir" by Brian W. Kernighan - Really enjoyed reading this one, I am generally a fan of history related to computers, and this book tells very well how the early days of Unix were and how things came to be what they are today
 - The lecture "A Narrative History of BSD" by Dr. Kirk McKusick - Very interesting lecture, you can find online
 - GDB - This tool comes in very handy when you want to dive in deeper, and also in general to debug the programs you write. It has a great help system, check out the ```help``` and ```apropos``` commands.
 - The man pages and info pages - Many of the documentation of Unix like systems can be found in the man pages using the ```man``` command, this includes docs about commands, system calls and more. GNU utilities like GDB for example tend to have more extensive documentation in the info pages which can be accessed through the ```info``` command.
 
-### Linux
+## Linux
 - [Linux Docs](https://docs.kernel.org/) - Great source of information to learn about all things Linux, goes from Admin related stuff like configuring kernel command-line parameters and until low level subsystems in the kernel. I would recommend reading the docs in conjunction with reading the source code
 - Robert Landley's talk about making a minimal Linux system (you can find on Youtube)
 - Playlist on YouTube: "Greybeard Qualification - Linux Internals" - nice and helpful videos about Linux internals, they are somewhat dated, but still contain a lot of information that is relavent today
 - The book "Understanding the Linux Kernel", great companion for researching the kernel, it is quite dated so beware of some outdated information, but still valuable since a lot of the basic core mechanisms and archictecture is still relavent for today
 
-### Windows
+## Windows
 - The book "Inside Windows NT" by Helen Custer - This book was written in conjunction with the preperation of the release of the first version of Windows NT in 1993, though this book is old and contains a lot of outdated information, I found it very interesting and fun to read to understand how things came to be how they are today on Windows. Also since the basic architecture of the Windows NT kernel has pretty much remained the same as it was designed in the original Windows NT, I did get a much better understanding of internals after reading this book. I have also recently started reading "Windows Internals" which is the modern version of "Inside Window NT" but I will say that "Windows Internals" is much more technical and harder to read as compared to "Inside Windows NT" which is more focused on the high level and general design of Windows.
 - The books of "Windows Internals" (part 1 and part 2) - Very interesting books about how Windows works under the hood, they include great practical exercises to demonstrate the theory discussed in the chapters.
 - [SysInternals](https://learn.microsoft.com/en-us/sysinternals/) - Great tools for learning what happens under the hood on Windows.
@@ -86,16 +91,16 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 - ReactOS - this is an interesting open source project that is attempting to clone Windows
 - Lectures/Videos by Mark Russinovich - you can find them on YouTube, very interesting source of information about Windows internals
 
-### C Programming
+## C Programming
 - The book "Writing Solid Code" by Steve Maguire - I read the original book but I think there is a newer edition, I enjoyed reading this one a lot, it is also quite old and contains some outdated info but still talks about a lot of tips which are relevant until today when programming C.
 
-### Assembly
+## Assembly
 - [Intel SDM](https://www.intel.com/content/www/us/en/developer/articles/technical/intel-sdm.html) - The official Intel references for x86/x64 architectures, you can use them to find for example documentation for specific instructions.
 
-### Computer History
+## Computer History
 - The Computer Chronicles - A great show that was broadcast from the 80s until the early 2000s and is a great time capsule of many major events that happened in the world of computing, very interesting and all the episodes are available to watch free online.
 
-## How I Navigate Source Code with Vim
+# How I Navigate Source Code with Vim
 
 The following tips come along side my playlist "Vim Tips" on my channel, some of the following tips are covered in those videos.
 
@@ -110,7 +115,7 @@ Regarding the ctags program, I use "Universal Ctags". I would recommend making s
 - The built-in file explorer plugin (netrw): Handy when you want to visually navigate, you can start it on a certain path just by running ```:e src/plugins``` for example.
 - The built-in autocomplete: CTRL+N for general auto complete and the CTRL+X following a type of completion (for instance CTRL+X and then [ for completion based on tags or CTRL+X and then f for completion based on files, and much more in the Vim help).
 
-## Common Questions
+# Common Questions
 
 - Why I prefer using Windows over a Linux Distro as my main desktop OS? There are a couple of reasons:
   - I find it more comfortable
