@@ -3,7 +3,8 @@
 LRESULT WinProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
     switch (uMsg) {
         case WM_PAINT:
-            HDC hDc = GetDC(hWnd);
+            PAINTSTRUCT paint;
+            HDC hDc = BeginPaint(hWnd, &paint);
             RECT rect = {
                 75,
                 75,
@@ -13,7 +14,7 @@ LRESULT WinProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam) {
             HBRUSH hBr = CreateSolidBrush(RGB(0,0,255));
             FillRect(hDc, &rect, hBr);
             DeleteObject(hBr);
-            ReleaseDC(hWnd, hDc);
+            EndPaint(hWnd, &paint);
             return 0;
 
         case WM_DESTROY:

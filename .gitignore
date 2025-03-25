@@ -1,3 +1,5 @@
 *.exe
 *.obj
 *.sys
+*.ilk
+*.pdb
