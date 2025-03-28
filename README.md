@@ -18,7 +18,8 @@ Here you can find the following
 
 ## Windows Setup
 
-Window Manager: I use [LightWM](https://github.com/nir9/lightwm) which is an open source tiling window manager I am working on.
+- Window Manager: I use [LightWM](https://github.com/nir9/lightwm) which is an open source tiling window manager I am working on.
+- Terminal: Windows Terminal
 
 ### Tools I like using on Windows
 - Vim (```winget install vim```)
