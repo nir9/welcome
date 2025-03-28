@@ -40,7 +40,9 @@ You can access the Windows C drive from WSL as ```/mnt/c```
 
 ## Linux Setup
 
-Window Manager: On Unix-likes I like using suckless dwm, when I use them graphically
+### When working graphically
+- Window Manager: suckless dwm built from source with the terminal set as ```st``` (```apt build-dep dwm && apt source dwm```)
+- Terminal: suckless st built from source with the font size increased in the config (```apt build-dep stterm && apt source stterm```)
 
 ### Tools I like using on Linux
 - QEMU (```apt install qemu-system-x86```)
