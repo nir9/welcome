@@ -90,9 +90,11 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 - "Windows Debugging and Troubleshooting" lecture (you can find on YT) - Great lecture with cool WinDbg tricks
 - "Kernel_Debugging_Tutorial.doc" - a great WinDbg kernel debugging guide that comes with Windows SDK
 - The Old New Thing - a great blog written by Raymond Chen with all kinds of interesting stories about Windows
+- Lectures/Videos by Mark Russinovich - you can find them on YouTube, very interesting source of information about Windows internals
+
+> ⚠ Note that researching the following 2 resources could impose some contribution restrictions on certain open source projects related to Windows, for example the ReactOS contribution guidelines prohibit contributions from people who have seen the Windows source code, and the WINE project prohibits both that and people who have seen the ReactOS source code. 
 - Leaked Windows XP Source Code - you can find here on Github by searching "nt5src" someone uploaded the leaked archive, this is leaked so use common sense on how to use it (for example I wouldn't go ahead and copy parts of this code to other projects), but it's definetly an interesting source of information for research purposes
 - ReactOS - this is an interesting open source project that is attempting to clone Windows
-- Lectures/Videos by Mark Russinovich - you can find them on YouTube, very interesting source of information about Windows internals
 
 ## C Programming
 - The book "Writing Solid Code" by Steve Maguire - I read the original book but I think there is a newer edition, I enjoyed reading this one a lot, it is also quite old and contains some outdated info but still talks about a lot of tips which are relevant until today when programming C.
