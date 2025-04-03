@@ -48,6 +48,9 @@ You can access the Windows C drive from WSL as ```/mnt/c```
 ### Tools I like using on Linux
 - QEMU (```apt install qemu-system-x86```)
 - GCC (```apt install gcc```)
+- strace (```apt install strace```)
+- ltrace (```apt install ltrace```)
+- xtrace (```apt install xtrace```)
 
 ### Basic Linux Programming Setup
 
