@@ -1,39 +1,39 @@
-.intel_syntax noprefix
 
-.global write
-.global read
-.global fork
-.global execve
-.global real_waitid
-.global _exit
+        .intel_syntax noprefix
 
-write:
-mov rax, 1
-syscall
-ret
+        .global sys_execve
+        .global sys_exit
+        .global sys_fork
+        .global sys_read
+        .global sys_waitid
+        .global sys_write
 
-read:
-mov rax, 0
-syscall
-ret
+sys_execve:
+        mov rax, 59
+        syscall
+        ret
 
-execve:
-mov rax, 59
-syscall
-ret
+sys_exit:
+        mov rax, 60
+        syscall
 
+sys_fork:
+        mov rax, 57
+        syscall
+        ret
 
-fork:
-mov rax, 57
-syscall
-ret
+sys_read:
+        mov rax, 0
+        syscall
+        ret
 
-real_waitid:
-mov rax, 247
-mov r10, rcx
-syscall
-ret
+sys_waitid:
+        mov rax, 247
+        mov r10, rcx
+        syscall
+        ret
 
-_exit:
-mov rax, 60
-syscall
+sys_write:
+        mov rax, 1
+        syscall
+        ret

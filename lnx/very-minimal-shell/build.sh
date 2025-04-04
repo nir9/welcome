@@ -1,4 +1,5 @@
 #!/bin/bash
-gcc -c -Os -fno-ident -fno-asynchronous-unwind-tables -fno-stack-protector -fomit-frame-pointer -o shell.o shell.c
-as sys.S -o sys.o
-ld shell.o sys.o -o init -T custom.ld --strip-all -z noexecstack
+
+gcc -c -Os -Wall -Werror -fno-ident -fno-asynchronous-unwind-tables -fomit-frame-pointer -o shell.o shell.c
+as  -o sys.o sys.S
+ld --strip-all -z noexecstack -z nodefaultlib -T custom.ld -o init shell.o sys.o

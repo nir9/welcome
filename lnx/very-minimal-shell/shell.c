@@ -1,27 +1,27 @@
-#include <unistd.h>
-#include <sys/wait.h>
 
-int real_waitid(idtype_t idtype, id_t id, siginfo_t *infop, int options, void*);
+#include "sys.h"
 
+__attribute__((section(".text.main")))
 int main()
 {
 	char command[255];
+
 	for (;;) {
-		write(1, "# ", 2);
-		int count = read(0, command, 255);
-		// /bin/ls\n -> /bin/ls\0
-		command[count - 1] = 0;
-		pid_t fork_result = fork();
+		sys_write(1, "# ", 2);
+
+		int count = sys_read(0, command, 255);
+		command[count - 1] = 0;                         // /bin/ls\n -> /bin/ls\0
+
+		pid_t fork_result = sys_fork();
+
 		if (fork_result == 0) {
-			execve(command, 0, 0);
+            sys_execve(command, NULL, NULL);
 			break;
 		} else {
-			// wait
-			// 
 			siginfo_t info;
-			real_waitid(P_ALL, 0, &info, WEXITED, 0);
+			sys_waitid(P_ALL, 0, &info, WEXITED, 0);    // wait for all child processes
 		}
 	}
 
-	_exit(0);
+	sys_exit(0);
 }
