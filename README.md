@@ -85,6 +85,10 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 - The book "Understanding the Linux Kernel", great companion for researching the kernel, it is quite dated so beware of some outdated information, but still valuable since a lot of the basic core mechanisms and archictecture is still relavent for today
 
 ## Windows
+> ⚠ Note that looking at the leaked Windows XP source code could impose some contribution restrictions on certain open source projects related to Windows, for example ReactOS & WINE contribution guidelines prohibit contributions from people who have seen the Windows source code
+
+> ⚠ WINE contribution guidelines are in particular very strict and even have requirements such as not looking at ReactOS code or debug symbols for Microsoft code. If you contribute to any of these kinds of projects, make sure you understand their clean room guidelines.
+
 - The book "Inside Windows NT" by Helen Custer - This book was written in conjunction with the preperation of the release of the first version of Windows NT in 1993, though this book is old and contains a lot of outdated information, I found it very interesting and fun to read to understand how things came to be how they are today on Windows. Also since the basic architecture of the Windows NT kernel has pretty much remained the same as it was designed in the original Windows NT, I did get a much better understanding of internals after reading this book. I have also recently started reading "Windows Internals" which is the modern version of "Inside Window NT" but I will say that "Windows Internals" is much more technical and harder to read as compared to "Inside Windows NT" which is more focused on the high level and general design of Windows.
 - The books of "Windows Internals" (part 1 and part 2) - Very interesting books about how Windows works under the hood, they include great practical exercises to demonstrate the theory discussed in the chapters.
 - [SysInternals](https://learn.microsoft.com/en-us/sysinternals/) - Great tools for learning what happens under the hood on Windows.
@@ -94,9 +98,6 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 - "Kernel_Debugging_Tutorial.doc" - a great WinDbg kernel debugging guide that comes with Windows SDK
 - The Old New Thing - a great blog written by Raymond Chen with all kinds of interesting stories about Windows
 - Lectures/Videos by Mark Russinovich - you can find them on YouTube, very interesting source of information about Windows internals
-
-> ⚠ Note that researching the following 2 resources could impose some contribution restrictions on certain open source projects related to Windows, for example the ReactOS contribution guidelines prohibit contributions from people who have seen the Windows source code, and the WINE project prohibits both that and people who have seen the ReactOS source code. 
-- Leaked Windows XP Source Code - you can find here on Github by searching "nt5src" someone uploaded the leaked archive, this is leaked so use common sense on how to use it (for example I wouldn't go ahead and copy parts of this code to other projects), but it's definetly an interesting source of information for research purposes
 - ReactOS - this is an interesting open source project that is attempting to clone Windows
 
 ## C Programming
