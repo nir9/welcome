@@ -28,6 +28,7 @@ Here you can find the following
 - Cutter (```winget install Rizin.Cutter```)
 - Sysinternals (```winget install "Sysinternals Suite"```)
 - VirtualBox (```winget install Oracle.VirtualBox```)
+- WinDirStat (```winget install WinDirStat.WinDirStat```)
 
 ### Setting up WSL Debian on Windows
 ```wsl --install Debian```
