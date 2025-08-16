@@ -25,7 +25,7 @@ Here you can find the following
 - Vim (```winget install vim```)
 - QEMU (```winget install qemu```)
 - Windbg (```winget install Microsoft.WinDbg```)
-- Cutter (```winget install Rizin.Cutter```)
+- Rizin (```winget install Rizin.Rizin```)
 - Sysinternals (```winget install "Sysinternals Suite"```)
 - VirtualBox (```winget install Oracle.VirtualBox```)
 - WinDirStat (```winget install WinDirStat.WinDirStat```)
