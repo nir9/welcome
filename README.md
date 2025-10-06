@@ -29,6 +29,8 @@ Here you can find the following
 - Sysinternals (```winget install "Sysinternals Suite"```)
 - VirtualBox (```winget install Oracle.VirtualBox```)
 - WinDirStat (```winget install WinDirStat.WinDirStat```)
+- Bochs (```winget install Bochs.Bochs```)
+- 86Box (```winget install 86Box.86Box```)
 
 ### Setting up WSL Debian on Windows
 ```wsl --install Debian```
