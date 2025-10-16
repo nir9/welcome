@@ -13,8 +13,15 @@ Here you can find the following
 
 # Setup
 
-- On my main laptop (on which I record the videos) I use Windows 10 and Debian Linux using WSL
+- On my laptop I use Alpine Linux with Sway
 - On my small on the go laptop I use OpenBSD
+
+## Alpine Linux Setup
+
+```sh
+export BROWSER=chromium
+setup-desktop sway
+```
 
 ## Windows Setup
 
@@ -42,20 +49,16 @@ You can access the Windows C drive from WSL as ```/mnt/c```
 - Visual Studio Build Tools
 - Windows SDK
 
-## Linux Setup
+## Debian Setup
 
-### When working graphically
-- Window Manager: suckless dwm built from source with the terminal set as ```st``` (```apt build-dep dwm && apt source dwm```)
-- Terminal: suckless st built from source with the font size increased in the config (```apt build-dep stterm && apt source stterm```)
-
-### Tools I like using on Linux
+### Tools I like using on Debian
 - QEMU (```apt install qemu-system-x86```)
 - GCC (```apt install gcc```)
 - strace (```apt install strace```)
 - ltrace (```apt install ltrace```)
 - xtrace (```apt install xtrace```)
 
-### Basic Linux Programming Setup
+### Basic Debian Programming Setup
 
 ```apt install gcc manpages-dev vim git make```
 
@@ -129,10 +132,9 @@ Regarding the ctags program, I use "Universal Ctags". I would recommend making s
 
 # Common Questions
 
-- Why I prefer using Windows over a Linux Distro as my main desktop OS? There are a couple of reasons:
-  - I find it more comfortable
-  - I like the fact that it has wide support for old/new software and games
-  - I am interested in both Windows programming and Linux programming
+- Why I also use Windows as one of my main desktop OSes? There are a couple of reasons:
+  - It has wide support for old/new software and games.
+  - I am also interested in Windows programming and research.
  
 - Why I prefer using Vim over other IDEs/Editors
   - I have some videos about this topic but to summarize:
