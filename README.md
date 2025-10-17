@@ -16,7 +16,7 @@ Here you can find the following
 - On my laptop I use Alpine Linux with Sway
 - On my small on the go laptop I use OpenBSD
 
-## Alpine Linux Setup
+## Alpine Linux Setup (x86_64)
 ```sh
 export BROWSER=chromium
 setup-desktop sway
@@ -28,10 +28,19 @@ Restart, login to your user, and then run `sway` to start the compositor.
 In order to get the sound working I followed the ALSA guide from the Alpine Linux wiki: https://wiki.alpinelinux.org/wiki/ALSA
 
 ### Installations
-- Man (```apk add man-db man-db-doc```)
-- Sway Man Pages (```apk add sway-doc```)
-- Vim (```apk add vim```)
-- Git (```apk add git```)
+- Man - `apk add man-db man-db-doc`
+- Sudo - `apk add sudo`
+  * Afterwards use `visudo` and uncomment the line giving permission to members of the `wheel` group.
+  * Add your user to `wheel` - `addgroup <user> wheel`
+- Sway Man Pages - `apk add sway-doc`
+- Vim - `apk add vim`
+- Git - `apk add git`
+- Foot Man Pages (The default Sway terminal) - `apk add foot-doc`
+- Krita (Graphics Editor) - `apk add krita`
+- Audacity (Audio Editor) - `apk add audacity`
+- Kdenlive (Video Editor) - `apk add kdenlive`
+- QEMU with GTK UI (PC Emulator) - `apk add qemu-system-x86_64 qemu-doc qemu-ui-gtk`
+  * Add you user to the `qemu` and `kvm` groups using `addgroup`
 
 ## Windows Setup
 
