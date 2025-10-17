@@ -11,17 +11,27 @@ Here you can find the following
 - Common questions
 - My .vimrc file
 
-# Setup
+# Setups
 
 - On my laptop I use Alpine Linux with Sway
 - On my small on the go laptop I use OpenBSD
 
 ## Alpine Linux Setup
-
 ```sh
 export BROWSER=chromium
 setup-desktop sway
 ```
+
+Restart, login to your user, and then run `sway` to start the compositor.
+
+### Sound Setup
+In order to get the sound working I followed the ALSA guide from the Alpine Linux wiki: https://wiki.alpinelinux.org/wiki/ALSA
+
+### Installations
+- Man (```apk add man-db man-db-doc```)
+- Sway Man Pages (```apk add sway-doc```)
+- Vim (```apk add vim```)
+- Git (```apk add git```)
 
 ## Windows Setup
 
