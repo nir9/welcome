@@ -41,6 +41,18 @@ In order to get the sound working I followed the ALSA guide from the Alpine Linu
 - Kdenlive (Video Editor) - `apk add kdenlive`
 - QEMU with GTK UI (PC Emulator) - `apk add qemu-system-x86_64 qemu-doc qemu-ui-gtk`
   * Add you user to the `qemu` and `kvm` groups using `addgroup`
+- GNU Make - `apk add make`
+- GNU Compiler Collection - `apk add gcc`
+- Musl Header Files (libc) - `apk add musl-dev`
+- Linux Man Pages - `apk add man-pages`
+
+### Linux Kernel Development Setup
+- Ncurses Header Files - `apk add ncurses-dev`
+- Flex - `apk add flex`
+- GNU Bison - `apk add bison`
+- Linux Header Files - `apk add linux-headers`
+- GNU Diff Utilities - `apk add diffutils`
+- Elf Utils Header Files - `apk add elfutils-dev`
 
 ## Windows Setup
 
@@ -68,20 +80,20 @@ You can access the Windows C drive from WSL as ```/mnt/c```
 - Visual Studio Build Tools
 - Windows SDK
 
-## Debian Setup
+### Debian WSL Setup
 
-### Tools I like using on Debian
+#### Tools I like using on Debian
 - QEMU (```apt install qemu-system-x86```)
 - GCC (```apt install gcc```)
 - strace (```apt install strace```)
 - ltrace (```apt install ltrace```)
 - xtrace (```apt install xtrace```)
 
-### Basic Debian Programming Setup
+#### Basic Debian Programming Setup
 
 ```apt install gcc manpages-dev vim git make```
 
-### Basic Linux Kernel Programming Setup
+#### Basic Linux Kernel Programming Setup
 
 ```apt install bzip2 libncurses-dev flex bison bc cpio libelf-dev libssl-dev syslinux dosfstools```
 
