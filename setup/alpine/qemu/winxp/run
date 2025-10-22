@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# I did the initial installation with "-cdrom /dev/sr0"
+# Run in snapshot mode to keep the disk image intact
+# Disable the nic to avoid connecting an outdated OS to the internet
+# Hardcode the real time clock to a specific date so the computer boots with the same date each time
+qemu-system-x86_64 -hda winxp.img -snapshot -m 1G -machine pc,accel=kvm -nic none -rtc base=2025-10-22
