@@ -1,0 +1,47 @@
+#!/bin/sh
+
+# Man
+apk add man-db man-db-doc
+# Sudo
+apk add sudo
+# Sway Man Pages
+apk add sway-doc
+# Vim
+apk add vim
+# Git
+apk add git
+# Foot Man Pages (The default Sway terminal)
+apk add foot-doc
+# Krita (Graphics Editor)
+apk add krita
+# Audacity (Audio Editor)
+apk add audacity
+# Kdenlive (Video Editor)
+apk add kdenlive
+# QEMU with GTK UI (PC Emulator)
+apk add qemu-system-x86_64 qemu-doc qemu-ui-gtk
+# QEMU img utility
+apk add qemu-img
+# GNU Make
+apk add make
+# GNU Compiler Collection
+apk add gcc
+# Musl Header Files (libc)
+apk add musl-dev
+# Linux Man Pages
+apk add man-pages
+
+# Linux Kernel Development Setup
+
+# Ncurses Header Files
+apk add ncurses-dev
+# Flex
+apk add flex
+# GNU Bison
+apk add bison
+# Linux Header Files
+apk add linux-headers
+# GNU Diff Utilities
+apk add diffutils
+# Elf Utils Header Files
+apk add elfutils-dev

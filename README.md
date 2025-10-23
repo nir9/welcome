@@ -1,6 +1,6 @@
 # Welcome
 
-Useful information regarding my YouTube channel
+Useful information regarding my [YouTube channel](https://youtube.com/@nirlichtman)
 
 Here you can find the following
 
@@ -16,96 +16,21 @@ Here you can find the following
 - On my laptop I use Alpine Linux with Sway
 - On my small on the go laptop I use OpenBSD
 
-## Alpine Linux Setup (x86_64)
-```sh
-export BROWSER=chromium
-setup-desktop sway
-```
+You can find more information regarding each setup in the `setups` directory.
 
-Restart, login to your user, and then run `sway` to start the compositor.
+## Linux Kernel Dev Setup
 
-### Sound Setup
-In order to get the sound working I followed the ALSA guide from the Alpine Linux wiki: https://wiki.alpinelinux.org/wiki/ALSA
+### Grabbing the Linux Kernel source
 
-### Installations
-- Man - `apk add man-db man-db-doc`
-- Sudo - `apk add sudo`
-  * Afterwards use `visudo` and uncomment the line giving permission to members of the `wheel` group.
-  * Add your user to `wheel` - `addgroup <user> wheel`
-- Sway Man Pages - `apk add sway-doc`
-- Vim - `apk add vim`
-- Git - `apk add git`
-- Foot Man Pages (The default Sway terminal) - `apk add foot-doc`
-- Krita (Graphics Editor) - `apk add krita`
-- Audacity (Audio Editor) - `apk add audacity`
-- Kdenlive (Video Editor) - `apk add kdenlive`
-- QEMU with GTK UI (PC Emulator) - `apk add qemu-system-x86_64 qemu-doc qemu-ui-gtk`
-  * Add you user to the `qemu` and `kvm` groups using `addgroup`
-- GNU Make - `apk add make`
-- GNU Compiler Collection - `apk add gcc`
-- Musl Header Files (libc) - `apk add musl-dev`
-- Linux Man Pages - `apk add man-pages`
-
-### Linux Kernel Development Setup
-- Ncurses Header Files - `apk add ncurses-dev`
-- Flex - `apk add flex`
-- GNU Bison - `apk add bison`
-- Linux Header Files - `apk add linux-headers`
-- GNU Diff Utilities - `apk add diffutils`
-- Elf Utils Header Files - `apk add elfutils-dev`
-
-## Windows Setup
-
-- Window Manager: I use [LightWM](https://github.com/nir9/lightwm) which is an open source tiling window manager I am working on.
-- Terminal: Windows Terminal
-
-### Tools I like using on Windows
-- Vim (```winget install vim```)
-- QEMU (```winget install qemu```)
-- Windbg (```winget install Microsoft.WinDbg```)
-- Rizin (```winget install Rizin.Rizin```)
-- Sysinternals (```winget install "Sysinternals Suite"```)
-- VirtualBox (```winget install Oracle.VirtualBox```)
-- WinDirStat (```winget install WinDirStat.WinDirStat```)
-- Bochs (```winget install Bochs.Bochs```)
-- 86Box (```winget install 86Box.86Box```)
-
-### Setting up WSL Debian on Windows
-```wsl --install Debian```
-
-You can access the Windows C drive from WSL as ```/mnt/c```
-
-### Basic Windows Programming Setup
-
-- Visual Studio Build Tools
-- Windows SDK
-
-### Debian WSL Setup
-
-#### Tools I like using on Debian
-- QEMU (```apt install qemu-system-x86```)
-- GCC (```apt install gcc```)
-- strace (```apt install strace```)
-- ltrace (```apt install ltrace```)
-- xtrace (```apt install xtrace```)
-
-#### Basic Debian Programming Setup
-
-```apt install gcc manpages-dev vim git make```
-
-#### Basic Linux Kernel Programming Setup
-
-```apt install bzip2 libncurses-dev flex bison bc cpio libelf-dev libssl-dev syslinux dosfstools```
-
-I also like using QEMU to try out the built kernel with the ```-kernel``` flag.
-
-#### Grabbing the Linux Kernel source
-
-You can grab it from torvalds official Linux git repository ```git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git``` 
+You can grab it from torvalds official Linux git repository `git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git` for the upstream version, or just download one of the tarballs from the `kernel.org` homepage.
 
 When cloning the kernel, I recommend using the depth flag like so ```git clone --depth 1``` so it will not bring over the entire history of the kernel, but only the last commit (this will speed up the cloning process and save disk space)
 
 I highly recommend checking out the Linux kernel documentation ```https://docs.kernel.org/```, you can also build it locally on your computer by following the instructions in the kernel source code README.
+
+### Dependencies Installation
+- For Alpine Linux instructions, refer to my setup script in `setups/alpine/setup`.
+- For Debian/Ubuntu instructions, refer to the "Basic Linux Kernel Programming Setup" section in `setups/windows/README.md`.
 
 # Suggested Learning Resources
 
