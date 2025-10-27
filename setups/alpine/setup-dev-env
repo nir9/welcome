@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# GNU Make
+apk add make
+# GNU Compiler Collection
+apk add gcc
+# Musl Header Files (libc)
+apk add musl-dev
+# Linux Man Pages
+apk add man-pages

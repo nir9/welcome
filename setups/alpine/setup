@@ -22,26 +22,3 @@ apk add kdenlive
 apk add qemu-system-x86_64 qemu-doc qemu-ui-gtk
 # QEMU img utility
 apk add qemu-img
-# GNU Make
-apk add make
-# GNU Compiler Collection
-apk add gcc
-# Musl Header Files (libc)
-apk add musl-dev
-# Linux Man Pages
-apk add man-pages
-
-# Linux Kernel Development Setup
-
-# Ncurses Header Files
-apk add ncurses-dev
-# Flex
-apk add flex
-# GNU Bison
-apk add bison
-# Linux Header Files
-apk add linux-headers
-# GNU Diff Utilities
-apk add diffutils
-# Elf Utils Header Files
-apk add elfutils-dev

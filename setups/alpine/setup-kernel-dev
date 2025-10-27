@@ -1,0 +1,16 @@
+#!/bin/sh
+
+# Linux Kernel Development Setup
+
+# Ncurses Header Files
+apk add ncurses-dev
+# Flex
+apk add flex
+# GNU Bison
+apk add bison
+# Linux Header Files
+apk add linux-headers
+# GNU Diff Utilities
+apk add diffutils
+# Elf Utils Header Files
+apk add elfutils-dev

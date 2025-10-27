@@ -14,7 +14,9 @@ Now restart, login to your user, and then run `sway` to start the compositor.
 In order to get the sound working I followed the ALSA guide from the Alpine Linux wiki: https://wiki.alpinelinux.org/wiki/ALSA
 
 ### Installations
-See `setup` script.
+- See `setup` script for general installations.
+- See `setup-dev-env` script for setting up a development environment.
+- See `setup-kernel-dev` script for setting up a kernel dev environment.
 
 After `setup`:
 - Use `visudo` and uncomment the line giving permission to members of the `wheel` group.
