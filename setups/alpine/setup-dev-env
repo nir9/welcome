@@ -3,8 +3,10 @@
 # GNU Make
 apk add make
 # GNU Compiler Collection
-apk add gcc
+apk add gcc gcc-doc
 # Musl Header Files (libc)
 apk add musl-dev
 # Linux Man Pages
 apk add man-pages
+# GNU Debugger
+apk add gdb

@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# Meson Build System
+apk add meson
+# Wayland
+apk add wayland-dev
+# Wayland Protocols
+apk add wayland-protocols-dev
+# libdrm (user mode interface to kernel DRM system)
+apk add libdrm-dev
+# libxkbcommon (keyboard handling library)
+apk add libxkbcommon-dev
+# Pixman (pixel manipulation library)
+apk add pixman-dev
