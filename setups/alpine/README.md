@@ -22,3 +22,5 @@ After `setup`:
 - Use `visudo` and uncomment the line giving permission to members of the `wheel` group.
 - Add your user to `wheel` - `addgroup <user> wheel`
 - Add you user to the `qemu` and `kvm` groups using `addgroup`
+- Change your default shell to Bash (see `chsh` command)
+- See the `.vimrc` and `.bashrc` files for my configurations

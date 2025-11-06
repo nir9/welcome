@@ -38,3 +38,9 @@ apk add qemu-system-x86_64 qemu-doc qemu-ui-gtk
 apk add qemu-img
 # 7zip
 apk add 7zip
+# GNU Bash
+apk add bash bash-doc
+# GNU Coreutils
+apk add coreutils coreutils-doc
+# GNU Texinfo (adds the info command to read GNU documentation)
+apk add texinfo

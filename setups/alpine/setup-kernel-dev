@@ -20,3 +20,7 @@ apk add cpio
 apk add findutils
 # OpenSSL dev
 apk add openssl-dev
+# Syslinux Bootloader
+apk add syslinux syslinux-doc
+# cdrkit (for ISO image generation)
+apk add cdrkit cdrkit-doc

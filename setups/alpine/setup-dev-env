@@ -10,3 +10,5 @@ apk add musl-dev
 apk add man-pages
 # GNU Debugger
 apk add gdb
+# Universal Ctags
+apk add ctags

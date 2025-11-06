@@ -12,3 +12,13 @@ apk add libdrm-dev
 apk add libxkbcommon-dev
 # Pixman (pixel manipulation library)
 apk add pixman-dev
+# hwdata
+apk add hwdata-dev
+# libdisplay-info
+apk add libdisplay-info-dev
+# eudev
+apk add eudev-dev
+# libseat (seat management library)
+apk add libseat-dev
+# libinput (handle input devices)
+apk add libinput-dev
