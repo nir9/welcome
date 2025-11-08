@@ -12,8 +12,8 @@ apk add vim
 apk add git
 # Foot Man Pages (The default Sway terminal)
 apk add foot-doc
-# Krita (Graphics Editor)
-apk add krita
+# GNU Image Manipulation Program
+apk add gimp
 # Audacity (Audio Editor)
 apk add audacity
 # Kdenlive (Video Editor)
