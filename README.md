@@ -42,8 +42,8 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 
 ## Linux
 - [Linux Docs](https://docs.kernel.org/) - Great source of information to learn about all things Linux, goes from Admin related stuff like configuring kernel command-line parameters and until low level subsystems in the kernel. I would recommend reading the docs in conjunction with reading the source code
-- Robert Landley's talk about making a minimal Linux system (you can find on Youtube)
-- Playlist on YouTube: "Greybeard Qualification - Linux Internals" - nice and helpful videos about Linux internals, they are somewhat dated, but still contain a lot of information that is relavent today
+- Robert Landley's talks (you can find on Youtube)
+- [The Linux Documentation Project](https://tldp.org/)
 - The book "Understanding the Linux Kernel", great companion for researching the kernel, it is quite dated so beware of some outdated information, but still valuable since a lot of the basic core mechanisms and archictecture is still relevant for today
 
 ## Windows
