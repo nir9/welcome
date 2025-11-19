@@ -15,7 +15,7 @@ apk add diffutils
 # Elf Utils Header Files
 apk add elfutils-dev
 # Cpio Archiving Utility (useful for initramfs)
-apk add cpio
+apk add cpio cpio-doc
 # Findutils (adds the GNU find command, needed for kernel build)
 apk add findutils
 # OpenSSL dev

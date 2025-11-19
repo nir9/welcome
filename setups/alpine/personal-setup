@@ -1,0 +1,20 @@
+#!/bin/sh
+
+# GNU Image Manipulation Program
+apk add gimp
+# Audacity (Audio Editor)
+apk add audacity
+# Kdenlive (Video Editor)
+apk add kdenlive
+# Stellarium (Virtual Planetarium)
+apk add stellarium
+# OBS Studio (Screen Recording)
+apk add obs-studio
+# Wlrobs (Add support for OBS screen recording of wlroots-based compositors, such as Sway)
+apk add wlrobs
+# MPV (CLI based Media Player)
+apk add mpv
+# Mutt (Terminal Email Client)
+apk add mutt mutt-doc
+# 7zip
+apk add 7zip
