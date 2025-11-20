@@ -18,3 +18,9 @@ apk add mpv
 apk add mutt mutt-doc
 # 7zip
 apk add 7zip
+# Inkscape (Vector Graphics Editor)
+apk add inkscape
+# NTFS mount
+apk add ntfs-3g
+# Mgba (Game Boy Advance emulator)
+apk add mgba
