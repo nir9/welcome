@@ -1,11 +1,11 @@
 # Welcome
 
-Useful information regarding my [YouTube channel](https://youtube.com/@nirlichtman)
+Information related to my [YouTube channel](https://youtube.com/@nirlichtman) and setup
 
 Here you can find the following
 
-- Many of the PoC projects I wrote in my videos (notice that they are only for fun and are NOT suitable for production)
-- Information about my setup
+- Programs I wrote in my videos (notice that they are only for fun and are NOT suitable for production)
+- Information about my setups
 - Suggested learning resources
 - Vim programming navigation tips
 - Common questions
@@ -29,7 +29,7 @@ When cloning the kernel, I recommend using the depth flag like so ```git clone -
 I highly recommend checking out the Linux kernel documentation ```https://docs.kernel.org/```, you can also build it locally on your computer by following the instructions in the kernel source code README.
 
 ### Dependencies Installation
-- For Alpine Linux instructions, refer to my setup script in `setups/alpine/setup`.
+- For Alpine Linux instructions, refer to my setup scripts in `setups/alpine`.
 - For Debian/Ubuntu instructions, refer to the "Basic Linux Kernel Programming Setup" section in `setups/windows/README.md`.
 
 # Suggested Learning Resources
