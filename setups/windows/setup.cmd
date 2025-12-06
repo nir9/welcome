@@ -14,3 +14,5 @@ REM WinDirStat
 winget install WinDirStat.WinDirStat
 REM 86Box Old School PCs Emulator
 winget install 86Box.86Box
+REM Rufus
+winget install Rufus.Rufus
