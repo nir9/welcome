@@ -13,8 +13,18 @@ Here you can find the following
 
 # Setups
 
-- On my laptop I use Alpine Linux with Sway
-- On my small on the go laptop I use OpenBSD
+### Desktop
+I have a couple of operating systems on my desktop, each on a separate drive
+
+- Windows 11
+- Alpine Linux with Sway
+- OpenBSD
+
+### Laptop
+Alpine Linux with Sway
+
+### Subnotebook
+Alpine Linux with Sway
 
 You can find more information regarding each setup in the `setups` directory.
 

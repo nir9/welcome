@@ -16,3 +16,5 @@ REM 86Box Old School PCs Emulator
 winget install 86Box.86Box
 REM Rufus
 winget install Rufus.Rufus
+REM Inkscape
+winget install Inkscape.Inkscape
