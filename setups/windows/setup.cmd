@@ -18,3 +18,11 @@ REM Rufus
 winget install Rufus.Rufus
 REM Inkscape
 winget install Inkscape.Inkscape
+REM Kdenlive
+winget install KDE.Kdenlive
+REM GIMP
+winget install GIMP.GIMP.3
+REM Paint.NET
+winget install dotPDN.PaintDotNet
+REM Visual Studio
+winget install Microsoft.VisualStudio.Community

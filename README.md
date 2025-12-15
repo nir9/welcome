@@ -40,7 +40,7 @@ I highly recommend checking out the Linux kernel documentation ```https://docs.k
 
 ### Dependencies Installation
 - For Alpine Linux instructions, refer to my setup scripts in `setups/alpine`.
-- For Debian/Ubuntu instructions, refer to the "Basic Linux Kernel Programming Setup" section in `setups/windows/README.md`.
+- For Debian/Ubuntu instructions, refer to `setups/debian`.
 
 # Suggested Learning Resources
 

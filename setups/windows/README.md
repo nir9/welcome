@@ -6,31 +6,7 @@
 ### Installations
 See `setup.cmd` script.
 
-### Setting up WSL Debian on Windows
-`wsl --install Debian`
-
-You can access the Windows C drive from WSL as `/mnt/c`
-
 ### Basic Windows Programming Setup
+See `setup.cmd` for the Visual Studio installation.
 
-- Visual Studio Build Tools
-- Windows SDK
-
-### Debian WSL Setup
-
-#### Tools I like using on Debian
-- QEMU (`apt install qemu-system-x86`)
-- GCC (`apt install gcc`)
-- strace (`apt install strace`)
-- ltrace (`apt install ltrace`)
-- xtrace (`apt install xtrace`)
-
-#### Basic Debian Programming Setup
-
-`apt install gcc manpages-dev vim git make`
-
-#### Basic Linux Kernel Programming Setup
-
-`apt install bzip2 libncurses-dev flex bison bc cpio libelf-dev libssl-dev syslinux dosfstools`
-
-I also like using QEMU to try out the built kernel with the `-kernel` flag.
+After installing Visual Studio, you can install the Windows SDK using the Visual Studio installer.
