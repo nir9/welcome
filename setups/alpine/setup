@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# ALSA
+apk add alsa-utils alsa-utils-doc
 # Man
 apk add man-db man-db-doc
 # Sudo
@@ -20,9 +22,15 @@ apk add openssh-client
 apk add qemu-system-x86_64 qemu-doc qemu-ui-gtk
 # QEMU img utility
 apk add qemu-img
+# QEMU ALSA audio driver
+apk add qemu-audio-alsa
 # GNU Bash
 apk add bash bash-doc
 # GNU Coreutils
 apk add coreutils coreutils-doc
 # GNU Texinfo (adds the info command to read GNU documentation)
 apk add texinfo
+# Strace
+apk add strace strace-doc
+# Ltrace
+apk add ltrace ltrace-doc
